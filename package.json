@@ -1,10 +1,10 @@
 {
-  "name": "eslint-config-semistandard",
-  "description": "eslint sharable config for semistandard",
+  "name": "eslint-config-semi-4standard",
+  "description": "eslint sharable config for semi-4standard",
   "version": "5.0.1",
-  "author": "Dan Flettre <fletd01@yahoo.com>",
+  "author": "Steve Terpe <srterpe@gmail.com>",
   "bugs": {
-    "url": "https://github.com/Flet/eslint-config-semistandard/issues"
+    "url": "https://github.com/sterpe/eslint-config-semi-4standard/issues"
   },
   "devDependencies": {
     "eslint": "^1.0.0",
@@ -14,9 +14,9 @@
     "tap-spec": "^4.0.0",
     "tape": "^4.0.0"
   },
-  "homepage": "https://github.com/Flet/eslint-config-semistandard",
+  "homepage": "https://github.com/sterpe/eslint-config-semi-4standard",
   "keywords": [
-    "semistandard",
+    "semi-4standard",
     "style checker",
     "code style",
     "code checker",
@@ -39,14 +39,14 @@
     "checker",
     "code standards",
     "JavaScript Semistandard Style",
-    "semistandard style",
+    "semi-4standard style",
     "eslintconfig"
   ],
   "license": "ISC",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Flet/eslint-config-semistandard.git"
+    "url": "https://github.com/sterpe/eslint-config-semi-4standard.git"
   },
   "scripts": {
     "test": "standard && tape test/*.js | tap-spec"

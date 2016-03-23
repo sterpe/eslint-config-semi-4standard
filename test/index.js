@@ -7,7 +7,9 @@ var linter = new eslint.CLIEngine({
 })
 
 test('api: lintText', function (t) {
-  t.plan(1)
+  t.plan(2)
   var result = linter.executeOnText("console.log('hi there')\n\n")
   t.equals(result.results[0].messages[0].message, 'Missing semicolon.')
+  result = linter.executeOnText('(function () {\n  return 0;\n}());\n\n')
+  t.equals(result.results[0].messages[0].message, 'Expected indentation of 4 space characters but found 2.')
 })
